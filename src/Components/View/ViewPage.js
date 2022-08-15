@@ -16,8 +16,8 @@ function ViewPage() {
       await dataReq.get(`/${elemId.id}`).then((res) => {
         setUser(res.data);
       });
-    } catch {
-      console.log("Error");
+    } catch(error) {
+      console.error(error)
     }
   };
 

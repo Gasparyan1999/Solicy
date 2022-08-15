@@ -15,8 +15,8 @@ function Table() {
       await dataReq.get("/").then((res) => {
         setUsers(res.data);
       });
-    } catch {
-      console.log("Error");
+    } catch(error) { 
+      console.error(error)
     }
   };
 
