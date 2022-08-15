@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Rows from "../Rows";
 import { dataReq } from "../Requests/Request";
-
 import "./table.scss";
 
 function Table() {
