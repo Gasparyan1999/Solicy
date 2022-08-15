@@ -18,7 +18,7 @@ function ViewPage() {
         setUser(res.data);
       });
     } catch {
-      return console.log("Error");
+      return Error;
     }
   };
 
