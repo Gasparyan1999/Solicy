@@ -16,7 +16,7 @@ function Table() {
         setUsers(res.data);
       });
     } catch {
-      return Error;
+      console.log("Error");
     }
   };
 
