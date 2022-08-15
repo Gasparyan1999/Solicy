@@ -4,7 +4,6 @@ import { dataReq } from "../Requests/Request";
 
 import "./table.scss";
 
-
 function Table() {
   const [users, setUsers] = useState([]);
 

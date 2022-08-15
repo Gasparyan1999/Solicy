@@ -1,9 +1,8 @@
-import React from "react";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { dataReq } from "../Requests/Request";
 
 import "./viewPage.scss";
-import { dataReq } from "../Requests/Request";
 
 function ViewPage() {
   const [user, setUser] = useState([]);
