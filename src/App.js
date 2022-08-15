@@ -4,12 +4,10 @@ import Table from "./Components/Table/Table";
 
 function App() {
   return (
-    <>
       <Routes>
         <Route path="/" element={<Table />} />
         <Route path="/view/:id" element={<ViewPage />} />
       </Routes>
-    </>
   );
 }
 

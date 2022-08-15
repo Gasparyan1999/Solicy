@@ -1,9 +1,9 @@
-import React from "react";
 import { useEffect, useState } from "react";
 import Rows from "../Rows";
+import { dataReq } from "../Requests/Request";
 
 import "./table.scss";
-import { dataReq } from "../Requests/Request";
+
 
 function Table() {
   const [users, setUsers] = useState([]);
